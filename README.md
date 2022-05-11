@@ -3,7 +3,7 @@
 
 This is a studie project made to develop ReactJS and learn it's concepts.
 
-In this project I've build a ReactJS financial control app following the best praticts for react and css. Also learned about styled-components, hooks, useContext, useEffect, useState.
+In this project I've build a ReactJS financial control app following the best praticts for react and css. Also learned about styled-components, hooks, useContext, useEffect, useState. In order to keep update to new technologies I used typescript as the main language of this project.
 
 The whole project keeps in mind accessibility too, you can navigato through the app with the keyboard with no problem at all.
 

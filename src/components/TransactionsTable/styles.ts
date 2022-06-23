@@ -19,10 +19,12 @@ export const Container = styled.div`
             border:0;
             background-color: var(--shape);
             color:var(--text-body);
-            border-radius:0.5rem;
+            
             
             &:first-child{
                 color:var(--text-title);
+                border-top-left-radius: 0.5rem;
+                border-bottom-left-radius: 0.5rem;
             }
 
             &.deposit{
@@ -31,6 +33,10 @@ export const Container = styled.div`
             
             &.withdraw{
                 color:var(--red);
+            }
+            &:last-child{
+                border-top-right-radius: 0.5rem;
+                border-bottom-right-radius: 0.5rem;
             }
         }
     }
